@@ -1,0 +1,26 @@
+/************************************************************/
+/*        stylesheet for jujutsu kaisen site                */
+/*        author: Miguel Ángel Bonilla                      */
+/*        version: 1.0                                      */
+/*        commit: project for Lenguaje de Marcas 1º DAM     */
+/************************************************************/
+body {background-color: #13131C;
+    text-align: justify;
+    margin: 0; padding: 0; /* Para eliminar espacio superior en body*/
+    color: #dfdbe4;
+    font-family:textonormal;} 
+
+h1 {font-family: blackmirror;
+  text-align: center;
+  text-shadow: 4px 4px 4px #838A94;}
+
+#wrapper {background-color: #565B64;
+        width: 80%;            /*El contenido de la página no llega de punta a punta.*/
+        margin:auto;          /*Se centra el contenido de la página*/
+        }
+/*******************************HERO SECTION********************************/
+#hero{
+    background-image: url(../img/hero.webp); /*Imagen apaisada de buena calidad*/
+    background-size: cover; /*Cubre todo el ancho*/
+    height: 90vh; /*vh es el total del alto de la ventana teniendo en cuenta que la navbar ocupa algo*/
+}
