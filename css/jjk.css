@@ -4,23 +4,127 @@
 /*        version: 1.0                                      */
 /*        commit: project for Lenguaje de Marcas 1º DAM     */
 /************************************************************/
-body {background-color: #13131C;
-    text-align: justify;
-    margin: 0; padding: 0; /* Para eliminar espacio superior en body*/
-    color: #dfdbe4;
-    font-family:textonormal;} 
 
-h1 {font-family: blackmirror;
+/**************************FONTS**************************/
+@font-face {
+  font-family:titulos;
+  src: url(../fonts/Jujutsu\ Kaisen.ttf);
+}
+
+@font-face {
+  font-family:texto;
+  src: url(../fonts/Exo-Regular.otf);
+}
+/*********************************************************/
+body {
+  background-image: url("../img/pattern.jpg");
+  text-align: justify;
+  margin: 0; padding: 0;
+  color: #cec7f4;
+  } 
+h1 {
+  font-family: titulos;
   text-align: center;
-  text-shadow: 4px 4px 4px #838A94;}
-
-#wrapper {background-color: #565B64;
-        width: 80%;            /*El contenido de la página no llega de punta a punta.*/
-        margin:auto;          /*Se centra el contenido de la página*/
-        }
+  text-shadow: 4px 4px 4px #cec7f4;}
+h2 {
+  font-family: titulos;
+  text-align: center;
+}
+#inf div {
+  background-color: #060619;
+  padding: 7px;
+}
+#inf p, ul, ol{
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: justify;
+  font-family: texto;
+}
+#inf ul, ol{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+#wrapper {
+  background-color: #110c27;
+  width: 80%;           
+  margin:auto;          
+  }
+/**********************NAV BAR***********************/
+nav {
+  border-radius: 3px #110c27;
+  background-color: #000007;
+  display: flex; 
+  justify-content: center;
+}
+nav a {
+  color: #cec7f4;;
+  text-align: center;
+  font-family: texto;
+  padding: 18px 2%;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+nav a:hover {
+  background-color: #110c27;
+}
 /*******************************HERO SECTION********************************/
 #hero{
-    background-image: url(../img/hero.webp); /*Imagen apaisada de buena calidad*/
-    background-size: cover; /*Cubre todo el ancho*/
-    height: 90vh; /*vh es el total del alto de la ventana teniendo en cuenta que la navbar ocupa algo*/
+  background-image: url(../img/wallpaper.jpg); /*Imagen apaisada de buena calidad*/
+  background-size: cover; /*Cubre todo el ancho*/
+  height: 90vh; /*vh es el total del alto de la ventana teniendo en cuenta que la navbar ocupa algo*/
+  width: auto;
+  background-position: center;
 }
+#hero button{
+  position: absolute;
+  left:50%;
+  top:90vh;
+  transform: translate(-50%,-50%);
+  border:none;
+  font-weight:bold;
+  font-family: titulos;
+  font-size: 1.5em;
+  padding: 10px 40px;
+  border-radius: 8px;
+  color: #cec7f4;
+  background-color: #000007;
+}
+#hero button:hover{
+  background-color: #110c27;
+}
+/****************************RESPONSIVE***********************************/
+@media only screen and (width<900px){
+  #wrapper { width: 80%; }
+  #inf {font-size: 1em;}
+  nav a{font-size: 1.2em;}
+}
+@media only screen and (width < 600px) { /*corte para un móvil*/
+  #wrapper { width: 95%; }
+  nav a{font-size: 1em;}
+}
+/**************************************FOOTER*******************************/
+footer{
+  background-color: #000007;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 2%;
+}
+footer a {
+  font-family: texto;
+  text-align: center;
+  color: #cec7f4; 
+}
+footer p{
+  margin: 0;
+  font-size: 16px;
+  font-family: texto;
+  text-align: center;
+  color: #cec7f4;
+}
+#logoft{
+  max-height: 80px;
+  width: auto;
+  margin: auto;
+}
+/***************************************************************************/

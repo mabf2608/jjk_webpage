@@ -1,0 +1,11 @@
+Favicon: Inspeccioné en el siguiente enlace y saqué la imagen https://www.google.com/search?client=opera-gx&q=jujutsu+kaisen+wiki+fandom&sourceid=opera&ie=UTF-8&oe=UTF-8
+
+Hero: https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.bandainamcoent.eu%2Fjujutsu-kaisen%2Fnoticias%2Fjujutsu-kaisen-cursed-clash-se-lanza-el-2-de-febrero-del-2024&psig=AOvVaw0wfh29T1gnufCUR1hJrPka&ust=1699816233339000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPDX-YjTvIIDFQAAAAAdAAAAABAE
+
+Pattern: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.designbolts.com%2F2012%2F11%2F26%2F25-free-simple-black-seamless-patterns-for-website-backgrounds%2F&psig=AOvVaw1AWLMnVjLreNAlt5zQxBPc&ust=1699816160633000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCODqmObSvIIDFQAAAAAdAAAAABAE
+
+Footer image: https://www.google.com/url?sa=i&url=https%3A%2F%2Fit.wikipedia.org%2Fwiki%2FFile%3AJujutsu_Kaisen_logo.png&psig=AOvVaw0gbGbt4n--ZRXIMeHK7ubp&ust=1699816192149000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJjXo_XSvIIDFQAAAAAdAAAAABAJ
+
+Fuente Titulos: https://www.fontget.com/font/jujutsu-kaisen/
+
+Fuente Texto:  https://www.1001fonts.com/exo-font.html
