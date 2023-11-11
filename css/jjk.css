@@ -71,14 +71,14 @@ nav a:hover {
 #hero{
   background-image: url(../img/wallpaper.jpg); /*Imagen apaisada de buena calidad*/
   background-size: cover; /*Cubre todo el ancho*/
-  height: 90vh; /*vh es el total del alto de la ventana teniendo en cuenta que la navbar ocupa algo*/
+  height: 95vh; /*vh es el total del alto de la ventana teniendo en cuenta que la navbar ocupa algo*/
   width: auto;
   background-position: center;
 }
 #hero button{
   position: absolute;
   left:50%;
-  top:90vh;
+  top:95vh;
   transform: translate(-50%,-50%);
   border:none;
   font-weight:bold;
