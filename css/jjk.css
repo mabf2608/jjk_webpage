@@ -69,9 +69,9 @@ nav a:hover {
 }
 /*******************************HERO SECTION********************************/
 #hero{
-  background-image: url(../img/wallpaper.jpg); /*Imagen apaisada de buena calidad*/
-  background-size: cover; /*Cubre todo el ancho*/
-  height: 95vh; /*vh es el total del alto de la ventana teniendo en cuenta que la navbar ocupa algo*/
+  background-image: url(../img/wallpaper.jpg);
+  background-size: cover;
+  height: 95vh;
   width: auto;
   background-position: center;
 }
@@ -97,9 +97,15 @@ nav a:hover {
   #wrapper { width: 80%; }
   #inf {font-size: 1em;}
   nav a{font-size: 1.2em;}
+  #hero{
+    height: 65vh;
+  }
+  #hero button{
+    top:67vh;
+  }
 }
 @media only screen and (width < 600px) { /*corte para un móvil*/
-  #wrapper { width: 95%; }
+  #wrapper { width: 98%; }
   nav a{font-size: 1em;}
 }
 /**************************************FOOTER*******************************/
