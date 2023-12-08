@@ -6,60 +6,137 @@
     <title>JuJutsu-Kaisen tribute - Home</title>
     <link rel ="icon" type="image" href="./img/favicon.png">
     <link rel="stylesheet" href="./css/jjk.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./js/jjk_webpage.js"></script>
 </head>
 <body>
     <body>
     <div id="wrapper">
         <nav>
-            <a href="./index.html">Inicio</a>  <!--Landing page-->
-            <a href="#Arcos">Arcos</a>  <!--En este apartado hablaremos sobre los diferentes arcos argumentales de la serie en otro Html-->
-            <a href="#Manga">Manga</a>  <!--Nos mandará a otra página html con las ultimas noticias sobre el manga-->
-            <a href="#Anime">Anime</a>    <!--Nos mandará a otra página html con las ultimas noticias sobre el anime-->
-            <a href="https://www.banpresto.es/figuras-jujutsu-kaisen/">Figuras</a>  <!--Este botón está enlazado con la página oficial de banpresto-->
-            <a href="#Personajes">Personajes</a>  <!--En este apartado hablaremos de los diferentes personajes de la serie en otro html-->
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#">Inicio</a>  <!--Landing page-->
+                <a href="#Arcos">Arcos</a>  <!--En este apartado hablaremos sobre los diferentes arcos argumentales de la serie en otro Html-->
+                <a href="#Manga">Manga</a>  <!--Nos mandará a otra página html con las ultimas noticias sobre el manga-->
+                <a href="#Anime">Anime</a>    <!--Nos mandará a otra página html con las ultimas noticias sobre el anime-->
+                <a href="https://www.banpresto.es/figuras-jujutsu-kaisen/">Figuras</a>  <!--Este botón está enlazado con la página oficial de banpresto-->
+                <a href="#Personajes">Personajes</a>  <!--En este apartado hablaremos de los diferentes personajes de la serie en otro html-->
+                <a href="#Galeria">Galeria</a> 
+            </div>
         </nav>
+        <span id="hamburger" onclick="openNav()">&#9776;</span>
         <section id="hero">
             <button>
                 NOTICIAS
             </button>
         </section>
-        <section id="inf">
+        <section id="Intro" class="inf">
             <div>
                 <h2>INTRODUCCION</h2>
             </div>
-            <p>
-                - Jujutsu Kaisen es una serie de manga japonesa escrita e ilustrada por Gege Akutami, se publica en la revista Weekly Shōnen Jump de la editorial Shūeisha desde el 5 de marzo de 2018. 
-                <br>
-                <br>
-                - Tiene una adaptación a anime producida por MAPPA la cual lleva actualmente 1 película y 2 temporadas:
-            </p>
+            <div class="grid-2">
+                <div class="col-2">
+                    <p>
+                        - Jujutsu Kaisen es una serie de manga japonesa escrita e ilustrada por Gege Akutami, se publica en la revista Weekly Shōnen Jump de la editorial Shūeisha desde el 5 de marzo de 2018. 
+                        <br>
+                        <br>
+                        - Tiene una adaptación a anime producida por MAPPA la cual lleva actualmente 1 película y 2 temporadas:
+                    </p>
                     <ul>
                         <li>Temporada 1: el 3 de octubre de 2020 hasta el 26 de marzo de 2021.</li>
                         <li>Temporada 2: el 6 de julio de 2023 hasta hoy ya que sigue en emisión.</li>
                         <li>Película: el 27 de mayo de 2022.</li>
                     </ul>
-            <p>
-                - La historia gira en torno a Yuji Itadori, un estudiante de secundaria que se involucra en el mundo de la hechicería para salvar a su amiga de la muerte. Yuji se convierte en un recipiente para el espíritu de Ryomen Sukuna, un poderoso demonio, y debe luchar contra maldiciones para proteger a los vivos. Es una serie de acción, fantasía oscura y sobrenatural que ha sido elogiada por su historia, personajes y animación, ha sido un éxito comercial y de crítica, y ha ganado numerosos premios, incluyendo el Premio Shōgakukan al Mejor Manga Shōnen en 2021.
-            </p>
+                    <p>
+                        - La historia gira en torno a Yuji Itadori, un estudiante de secundaria que se involucra en el mundo de la hechicería para salvar a su amiga de la muerte. Yuji se convierte en un recipiente para el espíritu de Ryomen Sukuna, un poderoso demonio, y debe luchar contra maldiciones para proteger a los vivos. Es una serie de acción, fantasía oscura y sobrenatural que ha sido elogiada por su historia, personajes y animación, ha sido un éxito comercial y de crítica, y ha ganado numerosos premios, incluyendo el Premio Shōgakukan al Mejor Manga Shōnen en 2021.
+                    </p>
+                </div>
+                <div class="col-2">
+                    <br>
+                    <img src="./img/intro.jpg" alt="">
+                </div>
+            </div>
         </section>
-        <section id="inf">
+        <section id="Arcos" class="inf">
             <div>
                 <h2>ARCOS ARGUMENTALES</h2>
             </div>
-            <p>
-                - En este apartado se hablará de los diferentes arcos argumentales de la obra, tal y como son:
-            </p>
-                <ol>
-                    <li>Arco de la infancia maldita.</li>
-                    <li>Arco de Introducción.</li>
-                    <li>Arco del Útero Maldito.</li>
-                    <li>Arco del Entrenamiento maldito.</li>
-                </ol>
-            <p>
-                - Estos son ejemplos de varios arcos, hay unos 7-8 más.
-            </p>
+            <div class="grid-4">
+                <div class="col-4">
+                    <h3>Infancia Maldita</h3>
+                    <img src="./img/arco1.png" alt="">
+                    <br>
+                    <p>
+                        Narra la historia de Yuta Okkotsu, un joven de 16 años, víctima de la Maldición de Grado Especial, Rika Orimoto, la cual fue su amiga de la infancia.
+                    </p>
+                    <br>
+                </div>
+                <div class="col-4">
+                    <h3>Introducción</h3>
+                    <img src="./img/arco2.webp" alt="">
+                    <br>
+                    <p>
+                        Narra la historia de Yuji Itadori, un estudiante promedio de secundaria con una capacidad física superior al promedio de estudiantes.
+                    </p>
+                    <br>
+                </div>
+                <div class="col-4">
+                    <h3>Útero Maldito</h3>
+                    <img src="./img/arco3.webp" alt="">
+                    <br>
+                    <p>
+                        Dos semanas después de la prueba dada por el maestro Satoru Gojo, se asigna a los estudiantes de primer año una nueva misión que involucra a una maldición de clase especial.
+                    </p>
+                    <br>
+                </div>
+                <div class="col-4">
+                    <h3>Entrenamiento Maldito</h3>
+                    <img src="./img/arco4.webp" alt="">
+                    <br>
+                    <p>
+                        Con Itadori devuelta a la vida, Satoru Gojo decide esconderlo por un tiempo y entrenarlo para que se convierta en un verdadero hechicero.
+                    </p>
+                    <br>
+                </div>
+                <div class="col-4">
+                    <h3>Enfrentamiento con Mahito</h3>
+                    <img src="./img/arco5.webp" alt="">
+                    <br>
+                    <p>
+                        Itadori es asignado con el hechicero de primer grado y ex-asalariado, Kento Nanami para trabajar en una misión que involucra a espíritus de grado especial. Una extraña maldición llamada Mahito ataca y provocará un profundo dolor en Itadori.
+                    </p>
+                    <br>
+                </div>
+                <div class="col-4">
+                    <h3>Festival de Intercambio con Kioto</h3>
+                    <img src="./img/arco6.webp" alt="">
+                    <br>
+                    <p>
+                        Luego de entrenar duramente y haber mejorado sus habilidades, Itadori regresa con sus compañeros antes del inicio del Evento de Buena Voluntad de Kioto. Sin embargo, los alumnos de segundo y tercer año del Colegio Técnico de Magia Metropolitana de Kioto tienen la misión de matarlo durante las batallas en equipos.
+                    </p>
+                    <br>
+                </div>
+                <div class="col-4">
+                    <h3>Origen de la Obediencia</h3>
+                    <img src="./img/arco7.webp" alt="">
+                    <br>
+                    <p>
+                        Ante la falta de personal, los alumnos de primer año del Colegio Técnico de Magia Metropolitana de Tokio son enviados a investigar una serie de extrañas desapariciones en la antigua escuela de Megumi, y probablemente, esta amenaza podría involucrar a su hermana mayor.
+                    </p>
+                    <br>
+                </div>
+                <div class="col-4">
+                    <h3>Recipiente de Plasma Estelar</h3>
+                    <img src="./img/arco8.png" alt="">
+                    <br>
+                    <p>
+                        Narra la historia de los días de juventud de Satoru Gojo junto a sus compañeros de clases, Suguru Geto y Shoko Ieiri. Reciben la misión de proteger y escoltar a una joven que será el recipiente de Plasma Estelar para el señor Tengen. Sin embargo, la llegada de un asesino amenaza con abrir una brecha tanto en la misión como en su amistad.
+                    </p>                    
+                    <br>
+                </div>
         </section>
-        <section id="inf">
+        <section id="Manga" class="inf">
             <div>
                 <h2>MANGA</h2>
             </div>
@@ -67,7 +144,7 @@
                 - Aquí hablaremos de las diferentes noticias con respecto al manga, como pueden ser fechas de proximos capítulos, spoilers, y otras cosas relacionadas con el tema como pueden ser "SBS" de GeGe Akutami el creador de la serie.
             </p>
         </section>
-        <section id="inf">
+        <section id="Anime" class="inf">
             <div>
                 <h2>ANIME</h2>
             </div>
@@ -75,15 +152,7 @@
                 - Aquí hablaremos de las diferentes noticias con respecto al anime, como pueden ser opiniones con respecto a la animación, fechas de proximos capitulos etc.
             </p>
         </section>
-        <section id="inf">
-            <div>
-                <h2>FIGURAS</h2>
-            </div>
-            <p>
-                - Sobre este apartado se irán hablando de las figuras ya a la venta o de las que están por salir.
-            </p>
-        </section>
-        <section id="inf">
+        <section id="Personajes" class="inf">
             <div>
                 <h2>PERSONAJES</h2>
             </div>
@@ -91,13 +160,78 @@
                 - Por último hablaremos de los diferentes personajes de la serie junto a una breve descripción de los mismos.
             </p>
         </section>
+        <section id="Galeria">
+            <div>
+                <h2>GALERIA</h2>
+            </div>
+        </section>
         <footer>
-            <img id=logoft src="./img/logo_footer.png" alt="logo">
-            <p>
-                This page is a class work of a Higher Degree in Multiplatform Application Development, specifically of the subject markup language, all rights are reserved by the official author of the manga and the various distributors of the same and the anime.
-            </p>
-            <br>
-            <a href="mailto:mabf2002@gmail.com">Contact with the admin</a>  <!--Contacto con el creador de la página -->
+            <div class="grid-3">
+                <div class="col-3">
+                    <div class="container">
+                        <img id=logoft src="./img/logo_footer.png" alt="logo">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div id="Enlaces" class="container">
+                        <ul>
+                            <a href="#">
+                                <li>Inicio</li>
+                            </a>
+                            <a href="#Intro">
+                                <li>Introducción</li>
+                            </a>
+                            <a href="#Arcos">
+                                <li>Arcos argumentales</li>
+                            </a>
+                            <a href="#Manga">
+                                <li>Manga</li>
+                            </a>
+                            <a href="#Anime">
+                                <li>Anime</li>
+                            </a>
+                            <a href="https://www.banpresto.es/figuras-jujutsu-kaisen/">
+                                <li>Figuras</li>
+                            </a>
+                            <a href="#Personajes">
+                                <li>Personajes</li>
+                            </a>
+                            <a href="#Galeria">
+                                <li>Galeria</li>
+                            </a>
+                            </ul>
+                    </div>
+                </div>
+                <div id="Redes" class="col-3">
+                    <button id="myBtn">Créditos</button>
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+                    <!-- Modal content -->
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <p>
+                                This page is a class work of a Higher Degree in Multiplatform Application Development, specifically of the subject markup language, all rights are reserved by the official author of the manga and the various distributors of the same and the anime.
+                            </p>
+                        </div>
+                    </div>
+                    <ul>
+                        <li><b>Dirección:</b> C/Frederick Termann 4</li>
+                        <br>
+                        <li><b>Teléfono:</b> 951 04 04 49</li>
+                        <br>
+                        <li><b>Contacta con el admin: </b><a href="mailto:mabf2002@gmail.com">Aquí</a></li>
+                        <br>
+                        <li><b>Redes sociales:</b>
+                            <br>
+                                <a href="https://twitter.com/i/flow/login?redirect_after_login=%2FPTAMalaga" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </li>
+                        <br>
+                   </ul>
+                </div>
+            </div>
         </footer>
     </div>
 </body>

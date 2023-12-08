@@ -1,7 +1,7 @@
 /************************************************************/
 /*        stylesheet for jujutsu kaisen site                */
 /*        author: Miguel Ángel Bonilla                      */
-/*        version: 1.0                                      */
+/*        version: 2.0                                      */
 /*        commit: project for Lenguaje de Marcas 1º DAM     */
 /************************************************************/
 
@@ -30,55 +30,70 @@ h2 {
   font-family: titulos;
   text-align: center;
 }
-#inf div {
-  background-color: #060619;
-  padding: 7px;
-}
-#inf p, ul, ol{
-  margin-left: 2%;
-  margin-right: 2%;
-  text-align: justify;
-  font-family: texto;
-}
-#inf ul, ol{
-  margin-left: 2%;
-  margin-right: 2%;
-}
 #wrapper {
   background-color: #110c27;
   width: 80%;           
   margin:auto;          
   }
 /**********************NAV BAR***********************/
-nav {
-  border-radius: 3px #110c27;
-  background-color: #000007;
-  display: flex; 
-  justify-content: center;
+#hamburger {
+  font-size:2em;
+  cursor:pointer;
+  position: fixed;
+  top:10px;
+  left:10px;
+  background-color:rgba(3, 3, 3, 0.456);
+  padding:3px;
 }
-nav a {
-  color: #cec7f4;;
-  text-align: center;
+/* The side navigation menu */
+.sidenav {
   font-family: texto;
-  padding: 18px 2%;
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #060619; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 25px;
+  color: #cec7f4;
+  display: block;
+  transition: 0.3s;
 }
-nav a:hover {
-  background-color: #110c27;
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  background-color: #000007;
 }
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+/*********************************************************/
+
 /*******************************HERO SECTION********************************/
-#hero{
+#hero {
   background-image: url(../img/wallpaper.jpg);
   background-size: cover;
   height: 95vh;
   width: auto;
   background-position: center;
 }
-#hero button{
+#hero button {
   position: absolute;
   left:50%;
-  top:95vh;
+  top:90vh;
   transform: translate(-50%,-50%);
   border:none;
   font-weight:bold;
@@ -89,48 +104,189 @@ nav a:hover {
   color: #cec7f4;
   background-color: #000007;
 }
-#hero button:hover{
+#hero button:hover {
   background-color: #110c27;
 }
-/****************************RESPONSIVE***********************************/
-@media only screen and (width<900px){
-  #wrapper { width: 80%; }
-  #inf {font-size: 1em;}
-  nav a{font-size: 1.2em;}
-  #hero{
-    height: 65vh;
-  }
-  #hero button{
-    top:67vh;
-  }
+/*********************************************************/
+
+/********************************INTRO SECTION******************************/
+.grid-2 {
+  display:grid;
+  grid-template-columns: auto;/*Mobile first*/
+  padding:7px;
+  text-align: justify;
+  font-family: texto;
 }
-@media only screen and (width < 600px) { /*corte para un móvil*/
-  #wrapper { width: 98%; }
-  nav a{font-size: 1em;}
+.grid-2 div {
+  font-size: 1.075em;
+  background-color: #060619;
 }
+.grid-2 ul, ol {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.col-2 {
+  padding: 5%;
+}
+#Intro img {
+  width: 100%;
+}
+/*********************************************************/
+
+/***************************ARCS SECTION*********************************/
+.grid-4 {
+  display:grid;
+  grid-template-columns: auto;/*Mobile first*/
+  gap: 7px;
+  padding:7px;
+  text-align: justify;
+  font-family: texto;
+}
+.grid-4 h3 {
+  text-align: center;
+}
+.col-4 {
+  padding: 5%;
+  border-radius: 10px;
+  background-color: #060619;
+}
+#Arcos img {
+  width: 100%;
+}
+/*********************************************************/
+
 /**************************************FOOTER*******************************/
-footer{
+.grid-3 {
+  display:grid;
+  grid-template-columns: auto;
+  text-align: justify;
+  font-family: texto;
+}
+.grid-3 div {
+  font-size: 1.075em;
+}
+.grid-3 .col-3 ul {
+  list-style: none;
+  display:block;
+  margin:auto;
+  width:50%;
+}
+.col-3  {
+  text-align:center;
+  padding-bottom:20px;
+  font-size:1.1em;
+}
+footer img {
+  width: 250px;
+  display: block;
+  margin: auto;
+}
+#Redes {
+  text-align: justify;
+}
+footer {
   background-color: #000007;
   display: flex; 
   flex-direction: column;
-  justify-content: center;
-  padding: 10px 2%;
+  padding: 3%;
 }
 footer a {
   font-family: texto;
   text-align: center;
   color: #cec7f4; 
 }
-footer p{
-  margin: 0;
-  font-size: 16px;
-  font-family: texto;
-  text-align: center;
-  color: #cec7f4;
+.fa {
+  font-size:1.5em !important;
+  margin:0 10px;
+  border-radius:50%;
+  padding:5px;
 }
-#logoft{
-  max-height: 80px;
-  width: auto;
-  margin: auto;
+.fa-twitter {
+  color:#55ACEE;
 }
-/***************************************************************************/
+/*********************************************************/
+
+/***************** MODAL EN FOOTER ***********************/
+ /* The Modal (background) */
+  .modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 10%;
+  top: 0;
+  width: 80%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+}
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+  color:black;
+}
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+/*********************************************************/
+
+/****************************RESPONSIVE***********************************/
+@media only screen and (width<900px) {
+  #wrapper { width: 80%; }
+  .inf {font-size: 1em;}
+  nav a{font-size: 1.2em;}
+  #hero{
+    height: 65vh;
+  }
+  #hero button{
+    top:62vh;
+    font-size: 1em;
+    padding: 5px 20px;
+  }
+}
+@media only screen and (width < 600px) { /*corte para un móvil*/
+  #wrapper { width: 98%; }
+  nav a{font-size: 1em;}
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/*********************************************************/
+
+/****************************RESPONSIVE FOR GRID MOBILE FIRST***********************************/
+@media only screen and (width>650px){
+  .grid-4{
+        display:grid;
+        grid-template-columns: auto auto;
+  }
+}
+@media only screen and (width>900px){
+  #wrapper{
+    width: 80%;
+  }
+  .grid-2{
+    grid-template-columns: auto auto;/*Mobile first*/
+  }
+  .grid-3 {
+    grid-template-columns: auto auto auto;
+  }
+  .grid-4{
+      grid-template-columns: auto auto auto auto;
+  }
+  
+}
+/*********************************************************/
