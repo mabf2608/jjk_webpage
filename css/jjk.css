@@ -95,7 +95,7 @@ h2 {
   left:50%;
   top:90vh;
   transform: translate(-50%,-50%);
-  border:none;
+  border:solid 2px #cec7f4;
   font-weight:bold;
   font-family: titulos;
   font-size: 1.5em;
@@ -106,6 +106,7 @@ h2 {
 }
 #hero button:hover {
   background-color: #110c27;
+  cursor: pointer;
 }
 /*********************************************************/
 
@@ -155,6 +156,34 @@ h2 {
 }
 /*********************************************************/
 
+/***************************MANGA SECTION*********************************/
+#Manga p{
+  background-color: #060619;
+  padding: 5%;
+}
+/*********************************************************/
+
+/***************************ANIME SECTION*********************************/
+#Anime p{
+  background-color: #060619;
+  padding: 5%;
+}
+/*********************************************************/
+
+/***************************MANGA SECTION*********************************/
+#Personajes p{
+  background-color: #060619;
+  padding: 5%;
+}
+/*********************************************************/
+
+/***************************MANGA SECTION*********************************/
+#Galeria p{
+  background-color: #060619;
+  padding: 5%;
+}
+/*********************************************************/
+
 /**************************************FOOTER*******************************/
 .grid-3 {
   display:grid;
@@ -176,11 +205,6 @@ h2 {
   padding-bottom:20px;
   font-size:1.1em;
 }
-footer img {
-  width: 250px;
-  display: block;
-  margin: auto;
-}
 #Redes {
   text-align: justify;
 }
@@ -189,6 +213,11 @@ footer {
   display: flex; 
   flex-direction: column;
   padding: 3%;
+}
+footer img {
+  width: 250px;
+  display: block;
+  margin: auto;
 }
 footer a {
   font-family: texto;
@@ -203,6 +232,18 @@ footer a {
 }
 .fa-twitter {
   color:#55ACEE;
+}
+footer button {
+  border:solid 2px #cec7f4;
+  font-family: texto;
+  font-size: 1.1em;
+  border-radius: 8px;
+  color: #cec7f4;
+  background-color: #000007;
+}
+footer button:hover{
+  background-color: #110c27;
+  cursor: pointer;
 }
 /*********************************************************/
 
@@ -220,23 +261,23 @@ footer a {
 }
 /* Modal Content/Box */
 .modal-content {
-  background-color: #fefefe;
+  background-color: #110c27;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #888;
+  border: 1px solid #cec7f4;
   width: 80%; /* Could be more or less, depending on screen size */
-  color:black;
+  color:#cec7f4;
 }
 /* The Close Button */
 .close {
-  color: #aaa;
+  color: #cec7f4;
   float: right;
   font-size: 28px;
   font-weight: bold;
 }
 .close:hover,
 .close:focus {
-  color: black;
+  color: white;
   text-decoration: none;
   cursor: pointer;
 }

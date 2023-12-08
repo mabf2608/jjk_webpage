@@ -7,8 +7,6 @@
     <link rel ="icon" type="image" href="./img/favicon.png">
     <link rel="stylesheet" href="./css/jjk.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="./js/jjk_webpage.js"></script>
 </head>
 <body>
     <body>
@@ -31,7 +29,7 @@
                 NOTICIAS
             </button>
         </section>
-        <section id="Intro" class="inf">
+        <section id="Intro">
             <div>
                 <h2>INTRODUCCION</h2>
             </div>
@@ -58,7 +56,7 @@
                 </div>
             </div>
         </section>
-        <section id="Arcos" class="inf">
+        <section id="Arcos">
             <div>
                 <h2>ARCOS ARGUMENTALES</h2>
             </div>
@@ -136,7 +134,8 @@
                     <br>
                 </div>
         </section>
-        <section id="Manga" class="inf">
+        <!--
+        <section id="Manga">
             <div>
                 <h2>MANGA</h2>
             </div>
@@ -144,7 +143,7 @@
                 - Aquí hablaremos de las diferentes noticias con respecto al manga, como pueden ser fechas de proximos capítulos, spoilers, y otras cosas relacionadas con el tema como pueden ser "SBS" de GeGe Akutami el creador de la serie.
             </p>
         </section>
-        <section id="Anime" class="inf">
+        <section id="Anime">
             <div>
                 <h2>ANIME</h2>
             </div>
@@ -152,7 +151,7 @@
                 - Aquí hablaremos de las diferentes noticias con respecto al anime, como pueden ser opiniones con respecto a la animación, fechas de proximos capitulos etc.
             </p>
         </section>
-        <section id="Personajes" class="inf">
+        <section id="Personajes">
             <div>
                 <h2>PERSONAJES</h2>
             </div>
@@ -164,7 +163,11 @@
             <div>
                 <h2>GALERIA</h2>
             </div>
+            <p>
+                - Aquí se añadirán imagenes relacionadas con la serie.
+            </p>
         </section>
+        -->
         <footer>
             <div class="grid-3">
                 <div class="col-3">
@@ -203,17 +206,6 @@
                     </div>
                 </div>
                 <div id="Redes" class="col-3">
-                    <button id="myBtn">Créditos</button>
-                    <!-- The Modal -->
-                    <div id="myModal" class="modal">
-                    <!-- Modal content -->
-                        <div class="modal-content">
-                            <span class="close">&times;</span>
-                            <p>
-                                This page is a class work of a Higher Degree in Multiplatform Application Development, specifically of the subject markup language, all rights are reserved by the official author of the manga and the various distributors of the same and the anime.
-                            </p>
-                        </div>
-                    </div>
                     <ul>
                         <li><b>Dirección:</b> C/Frederick Termann 4</li>
                         <br>
@@ -227,12 +219,26 @@
                                 <i class="fa fa-facebook" aria-hidden="true"></i>
                                 <i class="fa fa-instagram" aria-hidden="true"></i>
                                 <i class="fa fa-linkedin" aria-hidden="true"></i>
-                            </li>
+                        </li>
                         <br>
+                        <li>
+                            <button id="myBtn">Créditos</button>
+                            <!-- The Modal -->
+                            <div id="myModal" class="modal">
+                            <!-- Modal content -->
+                                <div class="modal-content">
+                                    <span class="close">&times;</span>
+                                    <p>
+                                        This page is a class work of a Higher Degree in Multiplatform Application Development, specifically of the subject markup language, all rights are reserved by the official author of the manga and the various distributors of the same and the anime.
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
                    </ul>
                 </div>
             </div>
         </footer>
     </div>
+    <script src="./js/jjk_webpage.js"></script>
 </body>
 </html>
