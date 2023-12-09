@@ -205,8 +205,9 @@ h2 {
   padding-bottom:20px;
   font-size:1.1em;
 }
-#Redes {
+#Redes li {
   text-align: justify;
+  font-size: 0.72em;
 }
 footer {
   background-color: #000007;
@@ -215,7 +216,7 @@ footer {
   padding: 3%;
 }
 footer img {
-  width: 250px;
+  width: 185px;
   display: block;
   margin: auto;
 }
