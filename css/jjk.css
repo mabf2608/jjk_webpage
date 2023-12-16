@@ -1,3 +1,4 @@
+/*radial-gradient(circle at 50% 0%, #6cafc3, #fff0), radial-gradient(circle at 50% 100%, #6cafc3, #1a456e);*/
 /************************************************************/
 /*        stylesheet for jujutsu kaisen site                */
 /*        author: Miguel Ángel Bonilla                      */
@@ -120,7 +121,7 @@ h2 {
 }
 .grid-2 div {
   font-size: 1em;
-  background-color: #060619;
+  background-image: linear-gradient(300deg, #131628 0, #060619 50%, #000003 100%);
 }
 .grid-2 ul, ol {
   margin-left: 2%;
@@ -149,7 +150,7 @@ h2 {
 .col-4 {
   padding: 5%;
   border-radius: 10px;
-  background-color: #060619;
+  background-image: linear-gradient(300deg, #131628 0, #060619 50%, #000003 100%);
 }
 #Arcos img {
   width: 100%;
@@ -157,9 +158,70 @@ h2 {
 /*********************************************************/
 
 /***************************MANGA SECTION*********************************/
-#Manga p{
-  background-color: #060619;
-  padding: 5%;
+#Manga {
+  padding:7px 7px 14px 7px;
+}
+.grid-6 {
+  background-image: linear-gradient(300deg, #131628 0, #060619 50%, #000003 100%);
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 7px;
+  padding:50px 7px 50px 7px;
+  text-align: justify;
+  font-family: texto;
+}
+.grid-6 p{
+  color: white;
+}
+.grid-6 img {
+  width: 250px;
+  height: 350px;
+  transform: scale(1.0);
+  transition: transform 0.4s ease;
+}
+.col-6 {
+  box-sizing: content-box;
+  height: 350px;
+  width: 250px;
+  overflow: hidden;
+  display: inline-block;
+  color: white;
+  position: relative;
+  border: 8px solid black;
+  border-radius: 10px 10px 10px 10px;
+}
+.caption {
+  position: absolute;
+  bottom: 5px;
+  left: 20px;
+  opacity: 0.0;
+  transition: transform 0.5s ease, opacity 0.7s ease;
+}  
+.transparent-box {
+  height: 350px;
+  width: 250px;
+  background-color:rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: background-color 0.3s ease;
+}
+.col-6:hover img { 
+  transform: scale(1.1);
+}
+.col-6:hover .transparent-box {
+  background-color:rgba(0, 0, 0, 0.5);
+}
+.col-6:hover .caption {
+  transform: translateY(-20px);
+  opacity: 2.0;
+}
+.col-6:hover {
+  cursor: pointer;
+}
+.caption > p:nth-child(2) {
+  font-size: 0.8em;
 }
 /*********************************************************/
 
@@ -170,18 +232,116 @@ h2 {
 }
 /*********************************************************/
 
-/***************************MANGA SECTION*********************************/
-#Personajes p{
-  background-color: #060619;
-  padding: 5%;
+/***************************CHARACTERS SECTION*********************************/
+:root {
+  --col-4-2-height: 275px;
+  --col-4-2-width: calc(var(--col-4-2-height) / 1.5);
 }
-/*********************************************************/
+#Personajes{
+  padding:7px 7px 14px 7px;
+}
+.grid-4-2{
+  background-image: linear-gradient(300deg, #131628 0, #060619 50%, #000003 100%);
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  display:flex;
+  flex-wrap: wrap;
+  padding:50px 7px 50px 7px;
+  gap:25px;
+  padding: 
+}
+.col-4-2 {
+  border: 5px black solid;
+  width: var(--col-4-2-width);
+  height: var(--col-4-2-height);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  perspective: 2500px;
+}
+.col-4-2 p{
+  color:white;
+  font-family: texto;
+  text-align: center;
+  bottom: 0;
+}
+.cover-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card {
+  transition: all 0.5s;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.col-4-2:hover .card {
+  transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
+  box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+}
+.card::before,
+.card::after {
+  content: "";
+  opacity: 0;
+  width: 100%;
+  height: 80px;
+  transition: all 0.5s;
+  position: absolute;
+  left: 0;
+}
+.card::before {
+  top: 0;
+  height: 100%;
+  background-image: linear-gradient(
+    to top,
+    transparent 46%,
+    rgba(12, 13, 19, 0.5) 68%,
+    rgba(12, 13, 19) 97%
+  );
+}
+.card::after {
+  bottom: 0;
+  opacity: 1;
+  background-image: linear-gradient(
+    to bottom,
+    transparent 46%,
+    rgba(12, 13, 19, 0.5) 68%,
+    rgba(12, 13, 19) 97%
+  );
+}
+.col-4-2:hover .card::before,
+.card::after {
+  opacity: 1;
+}
+.col-4-2:hover .card::after {
+  height: 120px;
+}
+.title {
+  width: 100%;
+  transition: transform 0.5s;
+}
+.col-4-2:hover .title {
+  transform: translate3d(0%, -30%, 100px);
+}
+.character {
+  height:275px;
+  width: auto;
+  opacity: 0;
+  transition: all 0.5s;
+  position: absolute;
+  z-index: -1;
+}
+.col-4-2:hover .character {
+  opacity: 1;
+  transform: translate3d(0%, -10%, 100px);
+}
 
-/***************************MANGA SECTION*********************************/
-#Galeria p{
-  background-color: #060619;
-  padding: 5%;
-}
 /*********************************************************/
 
 /**************************************FOOTER*******************************/
@@ -284,9 +444,12 @@ footer button:hover{
 }
 /*********************************************************/
 
+/*****************************ANIMATIONS*******************/
+/************************************************************
+
 /****************************RESPONSIVE***********************************/
 @media only screen and (width<900px) {
-  #wrapper { width: 80%; }
+  #wrapper { width: 90%; }
   .inf {font-size: 1em;}
   nav a{font-size: 1.2em;}
   #hero{
