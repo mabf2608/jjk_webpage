@@ -1,4 +1,4 @@
-/*******************NAV BAR*******************   */
+/*******************NAV BAR***********************/
 /* Set the width of the side navigation to 250px */
 function openNav() {
   document.getElementById("mySidenav").style.width = "190px";
@@ -7,6 +7,8 @@ function openNav() {
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
+/*************************************************/
+
 /**************MODAL FOOTER***********************/
 // Get the modal
 var modal = document.getElementById("myModal");
@@ -28,3 +30,4 @@ if (event.target == modal) {
   modal.style.display = "none";
   }
 }
+/**************************************************/

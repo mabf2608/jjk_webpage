@@ -1,4 +1,3 @@
-/*radial-gradient(circle at 50% 0%, #6cafc3, #fff0), radial-gradient(circle at 50% 100%, #6cafc3, #1a456e);*/
 /************************************************************/
 /*        stylesheet for jujutsu kaisen site                */
 /*        author: Miguel Ángel Bonilla                      */
@@ -129,6 +128,7 @@ h2 {
 }
 .col-2 {
   padding: 5%;
+  border-radius: 8px;
 }
 #Intro img {
   width: 100%;
@@ -139,7 +139,7 @@ h2 {
 .grid-4 {
   display:grid;
   grid-template-columns: auto;/*Mobile first*/
-  gap: 7px;
+  gap: 10px;
   padding:7px;
   text-align: justify;
   font-family: texto;
@@ -149,11 +149,12 @@ h2 {
 }
 .col-4 {
   padding: 5%;
-  border-radius: 10px;
+  border-radius: 8px;
   background-image: linear-gradient(300deg, #131628 0, #060619 50%, #000003 100%);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
-#Arcos img {
-  width: 100%;
+#Arcs img {
+  height: 180px;
 }
 /*********************************************************/
 
@@ -162,6 +163,7 @@ h2 {
   padding:7px 7px 14px 7px;
 }
 .grid-6 {
+  border-radius: 8px;
   background-image: linear-gradient(300deg, #131628 0, #060619 50%, #000003 100%);
   display:flex;
   flex-wrap: wrap;
@@ -188,8 +190,9 @@ h2 {
   display: inline-block;
   color: white;
   position: relative;
-  border: 8px solid black;
+  border: 5px solid black;
   border-radius: 10px 10px 10px 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 .caption {
   position: absolute;
@@ -237,10 +240,11 @@ h2 {
   --col-4-2-height: 275px;
   --col-4-2-width: calc(var(--col-4-2-height) / 1.5);
 }
-#Personajes{
-  padding:7px 7px 14px 7px;
+#Characters{
+  padding:7px 7px 7px 7px;
 }
 .grid-4-2{
+  border-radius: 8px;
   background-image: linear-gradient(300deg, #131628 0, #060619 50%, #000003 100%);
   box-sizing: border-box;
   justify-content: center;
@@ -249,9 +253,9 @@ h2 {
   flex-wrap: wrap;
   padding:50px 7px 50px 7px;
   gap:25px;
-  padding: 
 }
 .col-4-2 {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   border: 5px black solid;
   width: var(--col-4-2-width);
   height: var(--col-4-2-height);
@@ -365,20 +369,21 @@ h2 {
   padding-bottom:20px;
   font-size:1.1em;
 }
-#Redes li {
+#Social li {
   text-align: justify;
-  font-size: 0.72em;
+  font-size: 0.7em;
 }
 footer {
   background-color: #000007;
   display: flex; 
   flex-direction: column;
-  padding: 3%;
+  padding: 1%;
 }
 footer img {
-  width: 185px;
-  display: block;
-  margin: auto;
+  width: 180px;
+  display: flex;
+  margin-top: 50px;
+  margin-left: 45%;
 }
 footer a {
   font-family: texto;
@@ -443,9 +448,6 @@ footer button:hover{
   cursor: pointer;
 }
 /*********************************************************/
-
-/*****************************ANIMATIONS*******************/
-/************************************************************
 
 /****************************RESPONSIVE***********************************/
 @media only screen and (width<900px) {

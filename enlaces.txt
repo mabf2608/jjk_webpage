@@ -4,7 +4,7 @@ Hero: https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.bandainamcoent.eu%2Fj
 
 Pattern: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.designbolts.com%2F2012%2F11%2F26%2F25-free-simple-black-seamless-patterns-for-website-backgrounds%2F&psig=AOvVaw1AWLMnVjLreNAlt5zQxBPc&ust=1699816160633000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCODqmObSvIIDFQAAAAAdAAAAABAE
 
-Footer image: https://www.google.com/url?sa=i&url=https%3A%2F%2Fit.wikipedia.org%2Fwiki%2FFile%3AJujutsu_Kaisen_logo.png&psig=AOvVaw0gbGbt4n--ZRXIMeHK7ubp&ust=1699816192149000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCJjXo_XSvIIDFQAAAAAdAAAAABAJ
+Footer image: https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFile%3AJujutsu_Kaisen_%2528Japanese%2529_logo.svg&psig=AOvVaw20SbFtCSpc8kaDydQEcV9m&ust=1702855640774000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIC38-KNlYMDFQAAAAAdAAAAABAt
 
 Fuente Titulos: https://www.fontget.com/font/jujutsu-kaisen/
 
@@ -13,3 +13,7 @@ Fuente Texto:  https://www.1001fonts.com/exo-font.html
 Imagen de la section "Intro": https://www.mundodeportivo.com/alfabeta/series/ver-online-jujutsu-kaisen
 
 Imagenes de la section "Arcos Argumentales": https://jujutsu-kaisen.fandom.com/es/wiki/Jujutsu_Kaisen_Wiki
+
+Imagenes de la section "Manga": https://jujutsu-kaisen.fandom.com/es/wiki/Jujutsu_Kaisen_Wiki
+
+Imagenes de la section "Characters": https://jujutsu-kaisen.fandom.com/es/wiki/Jujutsu_Kaisen_Wiki
