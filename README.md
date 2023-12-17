@@ -1,4 +1,4 @@
-<h1>Memoria del proyecto fin de evaluación de Lenguajes de Marcas - 1º DAM/DAW</h1>
+<h1>Proyecto fin de evaluación de Lenguajes de Marcas - 1º DAM</h1>
 <h2>Jujutsu Kaisen - A tribute site</h2>
 <h2>Indice</h2>
 <ul>
@@ -32,7 +32,7 @@
 </ul>
 
 <h3>Hero Section</h3>
-<img src="./jjk-readme/intro.png" alt="imagen de hero section" style="width:50%">
+<img src="./jjk-readme/hero.png" alt="imagen de hero section" style="width:50%">
 <p>- He utilizado esta imagen para la hero section puesto que me gustó la paleta de colores y aparecian los personajes principales.<br>
   - Sobre ella he colocado un Call to Action que he estilado a raíz de lo dado en clase y los conocimientos adquiridos entonces.
 </p>
@@ -73,39 +73,44 @@ página oficial.
 <h2 id="estilo">Estilo de la página</h2>
 <h3>Paleta de colores</h3>
 <p>
-  - He seleccionado una paleta de colores de tonos azules morados y negro, ya que combinan bien con los colores de la serie.
+  - He seleccionado una paleta de colores de tonos azules morados y negro, ya que combinan bien con los colores de la serie:
+      <ul>
+        <li>#cec7f4</li>
+        <li>#060619</li>
+        <li>#000007</li>
+      </ul>
 </p>
 <h3>Tipografías</h3>
 <p>
-  - Fuente Titulos: https://www.fontget.com/font/jujutsu-kaisen/<br><br>
-  - Fuente Texto:  https://www.1001fonts.com/exo-font.html
+  
+  - Fuente Titulos: <a href="https://www.fontget.com/font/jujutsu-kaisen/">Aquí.</a>
+  
+  - Fuente Texto:  <a href="https://www.1001fonts.com/exo-font.html">Aquí.</a>
 </p>
 <h3>Imágenes</h3>
 <p>
-  - Favicon: Inspeccioné en el siguiente enlace y saqué la imagen https://www.google.com/search?client=opera-gx&q=jujutsu+kaisen+wiki+fandom&sourceid=opera&ie=UTF-8&oe=UTF-8
+  
+  - Favicon: Inspeccioné en el siguiente enlace y saqué la imagen de <a href="https://www.google.com/search?client=opera-gx&q=jujutsu+kaisen+wiki+fandom&sourceid=opera&ie=UTF-8&oe=UTF-8">aquí.</a>
 
-  - Hero: https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.bandainamcoent.eu%2Fjujutsu-kaisen%2Fnoticias%2Fjujutsu-kaisen-cursed-clash-se-lanza-el-2-de-febrero-del-2024&psig=AOvVaw0wfh29T1gnufCUR1hJrPka&ust=1699816233339000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPDX-YjTvIIDFQAAAAAdAAAAABAE
+  - Hero: <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.bandainamcoent.eu%2Fjujutsu-kaisen%2Fnoticias%2Fjujutsu-kaisen-cursed-clash-se-lanza-el-2-de-febrero-del-2024&psig=AOvVaw0wfh29T1gnufCUR1hJrPka&ust=1699816233339000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPDX-YjTvIIDFQAAAAAdAAAAABAE">Aquí.</a>
 
-  - Pattern: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.designbolts.com%2F2012%2F11%2F26%2F25-free-simple-black-seamless-patterns-for-website-backgrounds%2F&psig=AOvVaw1AWLMnVjLreNAlt5zQxBPc&ust=1699816160633000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCODqmObSvIIDFQAAAAAdAAAAABAE
+  - Pattern: <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.designbolts.com%2F2012%2F11%2F26%2F25-free-simple-black-seamless-patterns-for-website-backgrounds%2F&psig=AOvVaw1AWLMnVjLreNAlt5zQxBPc&ust=1699816160633000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCODqmObSvIIDFQAAAAAdAAAAABAE">Aquí.</a>
 
-  - Footer image: https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFile%3AJujutsu_Kaisen_%2528Japanese%2529_logo.svg&psig=AOvVaw20SbFtCSpc8kaDydQEcV9m&ust=1702855640774000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIC38-KNlYMDFQAAAAAdAAAAABAt
+  - Footer image: <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFile%3AJujutsu_Kaisen_%2528Japanese%2529_logo.svg&psig=AOvVaw20SbFtCSpc8kaDydQEcV9m&ust=1702855640774000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIC38-KNlYMDFQAAAAAdAAAAABAt">Aquí.</a>
     
-  - Imagen de la section "Intro": https://www.mundodeportivo.com/alfabeta/series/ver-online-jujutsu-kaisen
+  - Imagen de la section "Intro": <a href="https://www.mundodeportivo.com/alfabeta/series/ver-online-jujutsu-kaisen">Aquí.</a>
 
-  - Imagenes de la section "Arcos Argumentales": Las he sacado de una página fan https://jujutsu-kaisen.fandom.com/es/wiki/Jujutsu_Kaisen_Wiki
+  - Imagenes de la section "Arcos Argumentales": Las he sacado de una página fan <a href="https://jujutsu-kaisen.fandom.com/es/wiki/Jujutsu_Kaisen_Wiki">aquí.</a>
 
-  - Imagenes de la section "Manga": Las he sacado de una página fan https://jujutsu-kaisen.fandom.com/es/wiki/Jujutsu_Kaisen_Wiki
+  - Imagenes de la section "Manga": Las he sacado de una página fan <a href="https://jujutsu-kaisen.fandom.com/es/wiki/Jujutsu_Kaisen_Wiki">aquí.</a>
 
-  - Imagenes de la section "Characters": Las he sacado de una página fan https://jujutsu-kaisen.fandom.com/es/wiki/Jujutsu_Kaisen_Wiki
-    
+  - Imagenes de la section "Characters": Las he sacado de una página fan <a href="https://jujutsu-kaisen.fandom.com/es/wiki/Jujutsu_Kaisen_Wiki">aquí.</a>
 </p>
 
 <h2 id="snippets">Code snippets</h2>
-<p>He utilizado los siguientes:</p>
 <ul>
-  <li>Barra de navegación: tomada de w3Schools "How to" (poner vínculo)</li>
-  <li>Modal: 
-  <li>Manga card effect: tomada de la página Code Pen y editado por mi https://codepen.io/ritabradley_dev/pen/jOzMyqz</li>
-  <li>Characters card effect: tomada del la página Code Pen y editado por mi https://codepen.io/gayane-gasparyan/pen/wvxewXO</li>
-  <li>..........</li>
+  <li>Barra de navegación: tomada de w3Schools "How to" y editada por mi <a href="[https://www.mundodeportivo.com/alfabeta/series/ver-online-jujutsu-kaisen](https://www.w3schools.com/howto/howto_js_sidenav.asp)">aquí.</a></li><br>
+  <li>Modal: tomado de lo dado en clase con w3Schools  y editado por mi <a href="https://www.w3schools.com/w3css/w3css_modal.asp">aquí.</a></li><br>
+  <li>Manga card effect: tomada de la página Code Pen y editado por mi <a href="https://codepen.io/ritabradley_dev/pen/jOzMyqz">aquí.</a></li><br>
+  <li>Characters card effect: tomada de la página Code Pen y editado por mi <a href="https://codepen.io/gayane-gasparyan/pen/wvxewXO">aquí.</a></li><br>
 </ul>
