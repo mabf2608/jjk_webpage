@@ -243,7 +243,7 @@ h2 {
 #Characters{
   padding:7px 7px 7px 7px;
 }
-.grid-4-2{
+.flex{
   border-radius: 8px;
   background-image: linear-gradient(300deg, #131628 0, #060619 50%, #000003 100%);
   box-sizing: border-box;
