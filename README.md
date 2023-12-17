@@ -1,4 +1,4 @@
-<h1>Memoria del proyecto fin de evaluación de Lenguajes de Marcas - 1º DAM/DAW</h1>
+<h1>Proyecto fin de evaluación de Lenguajes de Marcas - 1º DAM</h1>
 <h2>Jujutsu Kaisen - A tribute site</h2>
 <h2>Indice</h2>
 <ul>
