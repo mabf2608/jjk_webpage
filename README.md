@@ -92,18 +92,18 @@ página oficial.
     
   - Imagen de la section "Intro": <a href="https://www.mundodeportivo.com/alfabeta/series/ver-online-jujutsu-kaisen">Aquí</a>
 
-  - Imagenes de la section "Arcos Argumentales": <a href="Las he sacado de una página fan https://jujutsu-kaisen.fandom.com/es/wiki/Jujutsu_Kaisen_Wiki">Aquí</a>
+  - Imagenes de la section "Arcos Argumentales": Las he sacado de una página fan<a href="https://jujutsu-kaisen.fandom.com/es/wiki/Jujutsu_Kaisen_Wiki">aquí</a>
 
-  - Imagenes de la section "Manga": Las he sacado de una página fan <a href="Las he sacado de una página fan https://jujutsu-kaisen.fandom.com/es/wiki/Jujutsu_Kaisen_Wiki">aquí</a>
+  - Imagenes de la section "Manga": Las he sacado de una página fan <a href="https://jujutsu-kaisen.fandom.com/es/wiki/Jujutsu_Kaisen_Wiki">aquí</a>
 
-  - Imagenes de la section "Characters": Las he sacado de una página fan <a href="Las he sacado de una página fan https://jujutsu-kaisen.fandom.com/es/wiki/Jujutsu_Kaisen_Wiki">aquí</a>
+  - Imagenes de la section "Characters": Las he sacado de una página fan <a href="https://jujutsu-kaisen.fandom.com/es/wiki/Jujutsu_Kaisen_Wiki">aquí</a>
 </p>
 
 <h2 id="snippets">Code snippets</h2>
 <p>He utilizado los siguientes:</p>
 <ul>
-  <li>Barra de navegación: tomada de w3Schools "How to" (poner vínculo)<a href="https://www.mundodeportivo.com/alfabeta/series/ver-online-jujutsu-kaisen">aquí</a></li>
-  <li>Modal: tomado de lo dado en clase con w3Schools <a href="[https://www.w3schools.com/w3css/w3css_modal.asp">aquí</a></li>
-  <li>Manga card effect: tomada de la página Code Pen y editado por mi <a href="[https://codepen.io/ritabradley_dev/pen/jOzMyqz">aquí</a></li>
+  <li>Barra de navegación: tomada de w3Schools "How to" y editada por mi<a href="[https://www.mundodeportivo.com/alfabeta/series/ver-online-jujutsu-kaisen](https://www.w3schools.com/howto/howto_js_sidenav.asp)">aquí</a></li>
+  <li>Modal: tomado de lo dado en clase con w3Schools  y editado por mi <a href="https://www.w3schools.com/w3css/w3css_modal.asp">aquí</a></li>
+  <li>Manga card effect: tomada de la página Code Pen y editado por mi <a href="https://codepen.io/ritabradley_dev/pen/jOzMyqz">aquí</a></li>
   <li>Characters card effect: tomada del la página Code Pen y editado por mi <a href="https://codepen.io/gayane-gasparyan/pen/wvxewXO">aquí</a></li>
 </ul>
