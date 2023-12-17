@@ -83,10 +83,12 @@ página oficial.
 <h3>Tipografías</h3>
 <p>
   - Fuente Titulos: <a href="https://www.fontget.com/font/jujutsu-kaisen/">Aquí</a>
-   - Fuente Texto:  <a href="https://www.1001fonts.com/exo-font.html">Aquí</a>
+  
+  - Fuente Texto:  <a href="https://www.1001fonts.com/exo-font.html">Aquí</a>
 </p>
 <h3>Imágenes</h3>
 <p>
+  
   - Favicon: Inspeccioné en el siguiente enlace y saqué la imagen de <a href="https://www.google.com/search?client=opera-gx&q=jujutsu+kaisen+wiki+fandom&sourceid=opera&ie=UTF-8&oe=UTF-8">aquí</a>
 
   - Hero: <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.bandainamcoent.eu%2Fjujutsu-kaisen%2Fnoticias%2Fjujutsu-kaisen-cursed-clash-se-lanza-el-2-de-febrero-del-2024&psig=AOvVaw0wfh29T1gnufCUR1hJrPka&ust=1699816233339000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPDX-YjTvIIDFQAAAAAdAAAAABAE">Aquí</a>
