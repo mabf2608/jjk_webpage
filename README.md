@@ -32,7 +32,7 @@
 </ul>
 
 <h3>Hero Section</h3>
-<img src="./jjk-readme/intro.png" alt="imagen de hero section" style="width:50%">
+<img src="./jjk-readme/hero.png" alt="imagen de hero section" style="width:50%">
 <p>- He utilizado esta imagen para la hero section puesto que me gustó la paleta de colores y aparecian los personajes principales.<br>
   - Sobre ella he colocado un Call to Action que he estilado a raíz de lo dado en clase y los conocimientos adquiridos entonces.
 </p>
