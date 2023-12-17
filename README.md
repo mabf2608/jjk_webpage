@@ -108,7 +108,6 @@ página oficial.
 </p>
 
 <h2 id="snippets">Code snippets</h2>
-<p>He utilizado los siguientes:</p>
 <ul>
   <li>Barra de navegación: tomada de w3Schools "How to" y editada por mi <a href="[https://www.mundodeportivo.com/alfabeta/series/ver-online-jujutsu-kaisen](https://www.w3schools.com/howto/howto_js_sidenav.asp)">aquí.</a></li><br>
   <li>Modal: tomado de lo dado en clase con w3Schools  y editado por mi <a href="https://www.w3schools.com/w3css/w3css_modal.asp">aquí.</a></li><br>
