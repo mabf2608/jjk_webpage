@@ -382,8 +382,7 @@ footer {
 footer img {
   width: 180px;
   display: flex;
-  margin-top: 50px;
-  margin-left: 45%;
+  margin: auto;
 }
 footer a {
   font-family: texto;
@@ -409,7 +408,7 @@ footer button {
 }
 footer button:hover{
   background-color: #110c27;
-  cursor: pointer;
+  cursor: pointer; 
 }
 /*********************************************************/
 
