@@ -73,12 +73,17 @@ página oficial.
 <h2 id="estilo">Estilo de la página</h2>
 <h3>Paleta de colores</h3>
 <p>
-  - He seleccionado una paleta de colores de tonos azules morados y negro, ya que combinan bien con los colores de la serie.
+  - He seleccionado una paleta de colores de tonos azules morados y negro, ya que combinan bien con los colores de la serie:
+      <ul>
+        <li>#cec7f4</li>
+        <li>#060619</li>
+        <li>#000007</li>
+      </ul>
 </p>
 <h3>Tipografías</h3>
 <p>
-  - Fuente Titulos: <a href="https://www.fontget.com/font/jujutsu-kaisen/">Aquí</a><br><br>
-  - Fuente Texto:  <a href="https://www.1001fonts.com/exo-font.html">Aquí</a>
+  - Fuente Titulos: <a href="https://www.fontget.com/font/jujutsu-kaisen/">Aquí</a>
+   - Fuente Texto:  <a href="https://www.1001fonts.com/exo-font.html">Aquí</a>
 </p>
 <h3>Imágenes</h3>
 <p>
@@ -102,8 +107,8 @@ página oficial.
 <h2 id="snippets">Code snippets</h2>
 <p>He utilizado los siguientes:</p>
 <ul>
-  <li>Barra de navegación: tomada de w3Schools "How to" y editada por mi<a href="[https://www.mundodeportivo.com/alfabeta/series/ver-online-jujutsu-kaisen](https://www.w3schools.com/howto/howto_js_sidenav.asp)">aquí</a></li>
-  <li>Modal: tomado de lo dado en clase con w3Schools  y editado por mi <a href="https://www.w3schools.com/w3css/w3css_modal.asp">aquí</a></li>
-  <li>Manga card effect: tomada de la página Code Pen y editado por mi <a href="https://codepen.io/ritabradley_dev/pen/jOzMyqz">aquí</a></li>
-  <li>Characters card effect: tomada del la página Code Pen y editado por mi <a href="https://codepen.io/gayane-gasparyan/pen/wvxewXO">aquí</a></li>
+  <li>Barra de navegación: tomada de w3Schools "How to" y editada por mi <a href="[https://www.mundodeportivo.com/alfabeta/series/ver-online-jujutsu-kaisen](https://www.w3schools.com/howto/howto_js_sidenav.asp)">aquí</a></li><br>
+  <li>Modal: tomado de lo dado en clase con w3Schools  y editado por mi <a href="https://www.w3schools.com/w3css/w3css_modal.asp">aquí</a></li><br>
+  <li>Manga card effect: tomada de la página Code Pen y editado por mi <a href="https://codepen.io/ritabradley_dev/pen/jOzMyqz">aquí</a></li><br>
+  <li>Characters card effect: tomada del la página Code Pen y editado por mi <a href="https://codepen.io/gayane-gasparyan/pen/wvxewXO">aquí</a></li><br>
 </ul>
