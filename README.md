@@ -82,6 +82,7 @@ página oficial.
 </p>
 <h3>Tipografías</h3>
 <p>
+  
   - Fuente Titulos: <a href="https://www.fontget.com/font/jujutsu-kaisen/">Aquí</a>
   
   - Fuente Texto:  <a href="https://www.1001fonts.com/exo-font.html">Aquí</a>
